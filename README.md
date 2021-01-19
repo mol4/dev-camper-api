@@ -1,7 +1,29 @@
-# DevCamper Backend API Specifications
+# DevCamper API 
+> Backend API For DevCamper application, which is a bootcamp directory website.
 
-Create the backend for a bootcamp directory website. The frontend/UI will be created by another team. The html/css template has been created and can be used as a reference for functionality. All of the functionality below needs to be fully implmented in this project.
+## Usage
+Rename "config.env.env" to "config/config.env" and update the values/settings to your own
 
+## Install Dependencies
+```
+npm install
+```
+
+## Run App
+```
+#Run in dev mode
+npm run dev
+
+#Run in prod mode
+npm start
+```
+
+### Version 1.0.0
+### License: MIT
+
+---
+## DevCamper Backend API Specifications 
+All of the functionality below has been implmented in this project.
 ### Bootcamps
 - List all bootcamps in the database
    * Pagination
@@ -97,14 +119,6 @@ Create the backend for a bootcamp directory website. The frontend/UI will be cre
 - Add html files as the / route for the api
 
 ## Deployment (Digital Ocean)
-- Push to Github
-- Create a droplet - https://m.do.co/c/5424d440c63a
-- Clone repo on to server
-- Use PM2 process manager
-- Enable firewall (ufw) and open needed ports
-- Create an NGINX reverse proxy for port 80
-- Connect a domain name
-- Install an SSL using Let's Encrypt
 
 ## Code Related Suggestions
 - NPM scripts for dev and production env
