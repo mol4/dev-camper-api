@@ -17,9 +17,13 @@ npm run dev
 #Run in prod mode
 npm start
 ```
+### The API is live at https://www.devtapi.xyz/ 
+### Extensive documentation with examples https://documenter.getpostman.com/view/3144054/TVzVhFon
+
 
 ### Version 1.0.0
 ### License: MIT
+
 
 ---
 ## DevCamper Backend API Specifications 
